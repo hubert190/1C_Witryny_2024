@@ -1,0 +1,106 @@
+ Karta pracy 1
+
+1.
+
+Wersja  HTML			Element			Zamiennik
+4.01				APPLET			OBJECT
+4.01				BASEFONT		CSS:color,font-family,font-size		
+4.01				CENTER			CSS: text-align
+4.01            		ISINDEX             	INPUT
+4.01				DIR			UL
+4.01				FONT			CSS: color,font-family,font-size
+5.0:               		<font>                  <span>
+5.0: 	     			<basefont>		<body>
+5.0:             		<applet>	        <canvas>
+5.0:              		<acronym>	        <span>	
+
+2.
+1.W języku HTML 5 usunięto przestarzałe instrukcje: <basefront>, <big>, <center>, <strike>, <frame>, <frameset>, <tt>.
+
+2.Zniesiono zasadę obowiązkowego zamykania znaczników (pomocne dla zapominalskich webmasterów) i pustych komend.
+
+3.Rozbudowano formularze.
+
+3.
+http://www.w3.org/TR/1998/REC-html40-19980424
+https://www.w3.org/TR/html401/.
+https://dev.w3.org/html5/spec-LC/
+
+
+ZADANIE1.
+Witryna Internetowa
+jest to grupa powiązanych ze sobą stron internetowych  i
+innych dokumentów udostępnianych w internecie z jednego adresu domowego za pośrednictwem usługi WWW.
+widoczni.com
+
+Portal Internetowy
+Witryna internetowa zawierająca usługi stanowiące „bramę” do Internetu.
+Portal służący do poczty oraz 
+aktualnych wydarzeń
+www.onet.pl 
+
+Sklep Internetowy
+serwis internetowy dający możliwość kupowania i sprzedawania produktów przez Internet.
+https://allegro.pl/
+
+Blok tekstowy
+rodzaj strony internetowej zawierającej odrębne, zazwyczaj uporządkowane chronologicznie wpisy.
+www.krywult.enauczanie.com
+
+Wideoblog
+ rodzaj bloga internetowego, którego zasadniczą treść stanowią pliki filmowe publikowane przez autora w kolejności chronologicznej.
+http://digi-artstudio.com/videoblogi_dos_donts/
+
+ZADANIE2.
+Wortal internetowy 
+Ponieważ jest ona serwisem wykorzystywanym do jednego aspektu czyli do szkolnictwa.
+
+ZADANIE3.
+1.błędny
+2.błędny 
+3.błędny
+4.poprawny 
+5.poprawny
+
+Test 1.
+Zadanie1.
+A
+Zadanie2.
+D
+Zadanie 3.
+C
+
+Zadanie 4.
+C
+Zadanie 5.
+A
+
+
+
+ZADANIE EGZAMINACYJE 1.
+
+NAZWA							OPIS						ZASTOSOWANIE
+
+HTML/CSS		HTML (HyperText Markup Language) i CSS (Cascading Style Sheets) 	 HTML służy do definiowania struktury treści, a 
+			to podstawowe technologie do tworzenia struktury i stylizacji		 CSS do nadawania jej wyglądu.
+			witryny internetowej.
+
+
+JavaScript		JavaScript to język programowania stosowany do tworzenia 		Umożliwia tworzenie interaktywnych i dynamicznych elementów na stronie.
+			interaktywnych elementów na stronie, takich jak formularze, 
+			animacje, i wiele innych. 
+
+
+PHP i MySQL		PHP to język skryptowy, a MySQL to system zarządzania bazą danych. 	Umożliwia tworzenie spersonalizowanych funkcji i aplikacji dla szkoły. 
+			Razem pozwalają na tworzenie dynamicznych aplikacji internetowych, 
+			takich jak systemy ocen czy kalendarze. 
+
+
+
+
+
+
+
+
+
+

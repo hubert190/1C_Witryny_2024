@@ -1,0 +1,22 @@
+Karta pracy 1.
+<li></li>- list item - element listy. Podpunkt listy używany w listach
+<ul></ul>-unordered list - lista nieuporządkowana. Rodzaj listy w HTML. Elementy listy nieuporządkowanej nie są numerowane.
+<ol></ol>- ordered list - lista uporządkowana. Rodzaj listy w HTML. Elementy listy uporządkowanej są numerowane.
+<body></body>-Pomiędzy znacznikami <body> oraz </body> lokujemy wszystkie informacje, które chcielibyśmy umieścić na stronie. Zaktualizujmy teraz nasz dokument o nowy znacznik.
+Test 3.
+Zad1.
+A
+Zad2.
+C
+Zad3.
+B
+Zad4.
+A
+Zad5.
+D
+Zadanie 3.
+1.<body>
+2.chref
+3.normal
+4.right
+5.content

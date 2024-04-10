@@ -1,0 +1,44 @@
+Zadanie 1.
+Strict DTD
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+
+Transitional DTD
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/loose.dtd">
+
+Frameset DTD
+	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
+	"http://www.w3.org/TR/html4/frameset.dtd">
+
+Strict (ścisła): Ta wersja narzuca najbardziej rygorystyczne standardy związane z poprawnością struktury dokumentu. Ogranicza użycie elementów i atrybutów do tych, które są zgodne z normami HTML 4.
+
+Transitional (przejściowa): Jest bardziej elastyczna niż ścisła wersja i pozwala na korzystanie z elementów i atrybutów, które są przestarzałe lub niezalecane w nowszych wersjach HTML.
+
+Frameset: Ta wersja jest przeznaczona do dokumentów zawierających ramki (frames). Jest stosowana, gdy strona internetowa używa konstrukcji z ramkami.
+
+Zadanie 2.
+<html>
+</head>
+</body>
+</html>
+
+Zadanie 3.
+1.W języku HTML
+2.Przykład do zadania
+3."utf-8"
+
+Test 2.
+Zadanie 1.
+C.
+Zadanie2.
+C.
+Zadanie 3.
+D.
+Zadanie 4.
+A.
+Zadanie 5.
+A.
+
+
+

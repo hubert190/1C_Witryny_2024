@@ -1,0 +1,5 @@
+1."password" - pole tekstowe na hasło które wpisuje się jako *
+2."number" - pozwala na wprowadzanie liczb
+3."color" - tworzy pole wyboru koloru
+4."submit" - tworzy pole na przycisk
+5."text" - pole do wprowadzania tekstu

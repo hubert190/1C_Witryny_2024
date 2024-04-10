@@ -1,0 +1,17 @@
+zad 5				Zastosowanie		Znacznik
+type = "submit"  		atrybut wykorzystywany 	<input>
+				jako przycisk 		
+
+scrolling = "no/yes/auto"	paski do		<iframe>
+				scrolowania
+
+maxlength = "x"			długośc znaków 		<input>
+
+cellspacing="x"			miejsce na komórki	<table>
+
+id = "header"			identyfikator element 	<h1>
+
+type ="text"			pole na tekst		<input>
+
+
+
