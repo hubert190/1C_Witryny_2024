@@ -1,0 +1,1 @@
+alert("Witaj tutaj będziesz mógł zobaczyć opisy i filmy najpopularniejszych ssaków");
