@@ -1,0 +1,17 @@
+*{
+    background-color: rgb(136, 136, 136);
+    color:black;
+   }
+   
+   section{
+       color: rgb(104, 41, 41);
+   }
+
+   .Witam {
+    font-size: xx-large;
+    text-align: center;
+    color: black;
+    background-color: beige;
+    border: 8px solid whitesmoke;
+
+   }
