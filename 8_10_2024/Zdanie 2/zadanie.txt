@@ -1,0 +1,10 @@
+Zalety
+1.Offline: Niektóre skrypty mogą działać nawet bez połączenia z internetem, co jest przydatne w aplikacjach offline.
+2.Interaktywność: Umożliwiają tworzenie dynamicznych i interaktywnych stron internetowych, które reagują na działania użytkownika w czasie rzeczywistym.
+3.Szybkość: Skrypty po stronie klienta są wykonywane bezpośrednio na urządzeniu użytkownika, co może przyspieszyć interakcje i zmniejszyć obciążenie serwera.
+4.Oszczędność zasobów serwera: Przenosząc część obliczeń na klienta, zmniejsza się obciążenie serwera, co może prowadzić do lepszej skalowalności.
+Wady 
+1.Zależność od przeglądarki: Różne przeglądarki mogą różnie interpretować skrypty, co może prowadzić do problemów z kompatybilnością.
+2.Bezpieczeństwo: Skrypty po stronie klienta są widoczne dla użytkowników, co może prowadzić do potencjalnych ataków i manipulacji kodem.
+3.Wydajność urządzenia: Wykonywanie skryptów na urządzeniu użytkownika może obciążać jego zasoby, zwłaszcza na starszych lub mniej wydajnych urządzeniach.
+4.Ograniczenia funkcjonalne: Skrypty po stronie klienta mają ograniczony dostęp do zasobów serwera i bazy danych, co może ograniczać ich funkcjonalność.

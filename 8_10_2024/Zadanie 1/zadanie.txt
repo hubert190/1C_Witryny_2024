@@ -1,0 +1,12 @@
+Java script 
+1995
+Brendan Eich
+Przeważnie po stronie klienta
+ecmasCRIPT 2023 (ES14)
+
+PHP
+1994
+Rasmous Lerdorf
+Po stronie serwera
+PHP 8.3
+

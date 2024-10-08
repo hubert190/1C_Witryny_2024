@@ -1,0 +1,10 @@
+Zalety
+1.Dostęp do zasobów: Serwer ma bezpośredni dostęp do bazy danych i innych zasobów, co może przyspieszyć operacje związane z danymi.
+2.Moc obliczeniowa: Serwery zazwyczaj mają większą moc obliczeniową niż urządzenia klienckie, co pozwala na bardziej złożone operacje.
+3.Bezpieczeństwo: Skrypty po stronie serwera są mniej narażone na ataki, ponieważ kod nie jest widoczny dla użytkownika końcowego.
+4.Centralizacja: Aktualizacje i zmiany w kodzie są łatwiejsze do zarządzania, ponieważ są wykonywane na serwerze, a nie na każdym urządzeniu klienckim.
+Wady
+1.Koszty: Utrzymanie i skalowanie serwerów może być kosztowne, zwłaszcza w przypadku dużych aplikacji.
+2.Opóźnienia sieciowe: Każde żądanie do serwera wymaga przesłania danych przez sieć, co może wprowadzać opóźnienia.
+3.Skalowalność: W przypadku dużej liczby użytkowników, serwer może wymagać dodatkowych zasobów, aby obsłużyć wszystkie żądania.
+4.Obciążenie serwera: Wykonywanie skryptów po stronie serwera może zwiększyć obciążenie serwera, co może prowadzić do spowolnienia działania aplikacji.
