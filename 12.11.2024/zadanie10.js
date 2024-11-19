@@ -1,7 +1,5 @@
 for (let i = 1; i <= 10; i++) {
     let label;
-    
-    // Używamy switch, aby przypisać etykiety
     switch (i) {
         case 1:
             label = "Pierwsza";

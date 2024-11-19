@@ -1,8 +1,16 @@
-let liczba = prompt("Podaj liczbę:");
+let number = prompt("Podaj liczbę:");
 
-let odwroconaLiczba = liczba.split("").reverse().join("");
 
-let liczbaCyfr = liczba.length;
+if (number !== null && number !== "") {
 
-document.write(`Liczba cyfr: ${liczbaCyfr}`);
-document.write(`Liczba w odwrotnej kolejności: ${odwroconaLiczba}`);
+  let reversedNumber = "";
+
+
+  for (let i = number.length - 1; i >= 0; i--) {
+    reversedNumber += number[i]; 
+  }
+
+ document.write("Liczba w odwrotnej kolejności: " + reversedNumber);
+} else {
+ document.write("Nie podano liczby.");
+}
