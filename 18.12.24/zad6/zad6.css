@@ -1,0 +1,11 @@
+
+     .gallery {
+        width: 100%;
+        overflow: hidden; 
+    }
+
+    .gallery img {
+        width: 30%; 
+        margin-right: 5%;
+        float: left;
+    }
