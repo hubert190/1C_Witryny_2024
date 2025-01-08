@@ -1,0 +1,9 @@
+.relative-element {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    background-color: aquamarine;
+}
