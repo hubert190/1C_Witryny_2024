@@ -1,0 +1,37 @@
+.cointainer {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.box {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    transition: z-index 0.2s;
+}
+
+.box:hover {
+    z-index: 10;
+}
+
+.red {
+    background: red;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.blue {
+    background: blue;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+}
+
+.green {
+    background: green;
+    top: 100px;
+    left: 100px;
+    z-index: 3;
+}
