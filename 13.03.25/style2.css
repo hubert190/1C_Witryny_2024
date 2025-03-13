@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+header {
+    background-color: aqua;
+    color: black;
+    text-align: center;
+}
+
+nav ul {
+    padding: auto;
+    display: flex;
+    list-style: none;
+    background-color: brown;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    padding: 5px;
+    background: blueviolet;
+    text-align: center;
+}
+
+@media print {
+    nav, footer , aside{
+        display: none;
+    }
+    body{
+        font-size: 12pt;
+        margin: 20mm;
+    }
+}
