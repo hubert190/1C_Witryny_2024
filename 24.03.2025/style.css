@@ -1,0 +1,46 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gold;
+    color: black;
+}
+
+
+.menu, .footer {
+    padding: 5px;
+    background: blueviolet;
+}
+
+.column {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1;
+    min-width: 300px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+@media (max-width: 1200px) {
+    .content{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .column {
+        width:100%;
+    }
+}
+
+
