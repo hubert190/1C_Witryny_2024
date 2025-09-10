@@ -5,24 +5,31 @@
     <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Planer zadań</title>
+    <title>Plener zadan</title>
 </head>
 <body>
-    <div id="blok-boczny"><img src="obraz.jpg" alt="notatki"></div> 
-    <div id="blok-naglowkowy"><h2>Moje zadania</h2></div>
-    <div id="blok-nagiwacyjny"><input type="text" placeholder="Dodaj zadanie..." id="pole"> 
+    <aside>
+        <img src="obraz.jpg" alt="notatki">
+    </aside>
+    <header>
+        <h2>Moje zadania</h2>
+    </header>
+    <nav>
+        <input type="text" name="" id="pole" placeholder="Dodaj zadanie...">
         <button onclick="dodaj()">Dodaj</button>
-    </div>
-    <div id="blok-glowny">
+    </nav>
+    <main>
         <ul id="lista">
-            <li>Wyprowadzić psa<button onclick="wykonane()">Wykonane</button></li>
-            <li>Gimnastyka<button onclick="wykonane()">Wykonane</button></li>
-            <li>Zakupy<button onclick="wykonane()">Wykonane</button></li>
-            <li>Spacer z kumplem<button onclick="wykonane()">Wykonane</button></li>
-            <li>Odrabianie lekcji z młodszą siostrą<button onclick="wykonane()">Wykonane</button></li>
-            <li>Projekt na geografie<button onclick="wykonane()">Wykonane</button></li>
+            <li>Wyprowadzić psa<button onclick="wykonane(this)">Wykonane</button></li>
+            <li>Gimnastyka<button onclick="wykonane(this)">Wykonane</button></li>
+            <li>Zakupy<button onclick="wykonane(this)">Wykonane</button></li>
+            <li>Spacer z kumplem<button onclick="wykonane(this)">Wykonane</button></li>
+            <li>Odrabianie lekcji z młodszą siostrą<button onclick="wykonane(this)">Wykonane</button></li>
+            <li>Projekt na geografię<button onclick="wykonane(this)">Wykonane</button></li>
         </ul>
-    </div>
-    <div id="stopka"><h3>Notatki: 0000000000</h3></div>
+    </main>
+    <footer>
+        <h3>Notatki: 00000000000</h3>
+    </footer>
 </body>
 </html>
