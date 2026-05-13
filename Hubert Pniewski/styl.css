@@ -1,59 +1,56 @@
-*{
-    font-family: Verdana;
+* {
+    font-family: 'Gill Sans MT', 'calibri';
 }
 
-aside img{
-    width: 20%;
-    height: 610px;
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#naglowkowy1 {
+    width: 40%;
     float: left;
 }
 
-header, nav, footer{
-    background-color: mediumpurple;
-    color: white;
-    width: 80%;
+#naglowkowy2 {
+    width: 60%;
+    text-align: right;
+    float: left;
+}
+
+main {
+    clear: both;
+}
+
+#aktorzy {
+    margin: 0 auto;
+}
+
+#wynik div {
+    width: 15em;
     text-align: center;
-    float: left;
-    text-shadow: 4px dimgray;
+    display: inline-block;
 }
 
-main{
-    background-color: thistle;
-    width: 80%;
-    height: 450px;
-    float: left;
-    overflow: auto;
+#aktorzy div {
+    width: 25em;
+    text-align: center;
 }
 
-ul{
-    list-style-type: disc;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
-    width: 70%;
-    border: 2px solid mediumpurple;
+img {
+    width: 90%;
+    border-radius: 50%;
 }
 
-li{
-    padding: 10px;
+#aktorzy p {
+    font-size: 125%;
 }
 
-li:nth-child(even){
-    background-color: #DDCADD;
+a {
+    color: black;
+    text-decoration: none;
 }
 
-li:nth-child(odd){
-    background-color: lavender;
-}
-
-button{
-    float: right;
-    background-color: mediumpurple;
-    color: white;
-    border: none;
-    height: 25px;
-    padding: 5px 10px;
-    cursor: pointer;
+a:hover {
+    color: #E30613;
 }
