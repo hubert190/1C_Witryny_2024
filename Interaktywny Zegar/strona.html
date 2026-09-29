@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaktywny zegar projekt powtórkowy</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+ 
+<body>
+ 
+    <h1>Interaktywny zegar projekt powtórkowy</h1>
+ 
+    <div class="zegar">
+ 
+        <div id="czas">00:00:00</div>
+ 
+        <div id="data">00.00.0000</div>
+ 
+        <button id="start">Start</button>
+ 
+        <button id="stop">Stop</button>
+ 
+        <button id="format">Tryb 12h</button>
+ 
+        <button id="motyw">Zmień motyw</button>
+ 
+    </div>
+ 
+ 
+    <h2>Historia</h2>
+ 
+    <ul id="historia"></ul>
+ 
+ 
+    <script>
+ 
+        let zegar;
+        let tryb24 = true; 
+ 
+        let historia = [];
+
+        function showTime() {
+            const teraz = new Date(); 
+            let godzina = teraz.getHours(); 
+            let minuta = teraz.getMinutes(); 
+            let sekunda = teraz.getSeconds(); 
+            let dzien = teraz.getDate(); 
+            let miesiac = teraz.getMonth() + 1; 
+            let rok = teraz.getFullYear(); 
+ 
+ 
+            if (tryb24 == false) {
+ 
+                let ampm = "AM"; 
+ 
+                if (godzina >= 12) {
+                    ampm = "PM";
+                }
+ 
+                if (godzina > 12) {
+                    godzina = godzina - 12;
+                }
+ 
+                if (godzina == 0) {
+                    godzina = 12;
+                }
+ 
+                document.getElementById("czas").innerHTML =
+                    godzina + ":" +
+                    minuta + ":" +
+                    sekunda + " " +
+                    ampm;
+ 
+            } else {
+ 
+                document.getElementById("czas").innerHTML =
+                    godzina + ":" +
+                    minuta + ":" +
+                    sekunda;
+            }
+ 
+
+            document.getElementById("data").innerHTML =
+                dzien + "." +
+                miesiac + "." +
+                rok;
+        }
+ 
+ 
+        class Clock {
+
+            start() {
+                showTime();
+                zegar = setInterval(showTime, 1000);
+            }
+ 
+            stop() {
+                clearInterval(zegar);
+            }
+ 
+            getCurrentTime() {
+ 
+                const teraz = new Date();
+ 
+                return teraz.toLocaleTimeString();
+            }
+        }
+ 
+        const clock = new Clock(); 
+ 
+        document.getElementById("start").onclick = function() {
+            clock.start();
+        };
+ 
+ 
+        document.getElementById("stop").onclick = function() {
+            const czas = clock.getCurrentTime(); 
+            historia.push(czas);
+            const element = document.createElement("li");
+            element.innerHTML = czas;
+            document.getElementById("historia")
+                .appendChild(element);
+            clock.stop();
+        };
+ 
+        document.getElementById("format").onclick = function() {
+            tryb24 = !tryb24;
+            if (tryb24 == true) {
+                document.getElementById("format").innerHTML =
+                    "Tryb 12h";
+            } else {
+                document.getElementById("format").innerHTML =
+                    "Tryb 24h";
+            }
+            showTime();
+        };
+
+        document.getElementById("motyw").onclick = function() {
+ 
+            document.body.classList.toggle("ciemny");
+ 
+        };
+        clock.start();
+    </script>
+ 
+</body>
+</html>
