@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Gry Tekstowe</title>
+</head>
+<body>
+
+<h1>Gry Tekstowe</h1>
+
+<script>
+
+let wybor = prompt(
+    "Wybierz grę:\n" +
+    "1 - Wisielec\n" +
+    "2 - Zgadywanie kodu\n" +
+    "3 - Hasło z kategorii"
+);
+
+// GRA 1
+if (wybor == "1") {
+
+    let slowa = ["pies", "kot", "slon", "zyrafa"];
+    let haslo = slowa[Math.floor(Math.random() * slowa.length)];
+
+    let stan = Array(haslo.length).fill("_");
+    let bledy = 0;
+
+    while (stan.includes("_") && bledy < 6) {
+
+        let litera = prompt(
+            "Hasło: " + stan.join(" ") +
+            "\nBłędy: " + bledy + "/6" +
+            "\nPodaj literę:"
+        );
+
+        let trafienie = false;
+
+        for (let i = 0; i < haslo.length; i++) {
+            if (haslo[i] == litera) {
+                stan[i] = litera;
+                trafienie = true;
+            }
+        }
+
+        if (!trafienie) {
+            bledy++;
+        }
+    }
+
+    if (!stan.includes("_")) {
+        alert("Wygrałeś! Hasło: " + haslo);
+    } else {
+        alert("Przegrałeś! Hasło: " + haslo);
+    }
+}
+
+// GRA 2
+else if (wybor == "2") {
+
+    let kod = "4821";
+    let stan = ["_", "_", "_", "_"];
+    let proby = 0;
+
+    while (stan.includes("_") && proby < 8) {
+
+        let cyfra = prompt(
+            "Kod: " + stan.join(" ") +
+            "\nBłędne próby: " + proby + "/8" +
+            "\nPodaj cyfrę:"
+        );
+
+        let trafienie = false;
+
+        for (let i = 0; i < kod.length; i++) {
+            if (kod[i] == cyfra) {
+                stan[i] = cyfra;
+                trafienie = true;
+            }
+        }
+
+        if (!trafienie) {
+            proby++;
+        }
+    }
+
+    if (!stan.includes("_")) {
+        alert("Brawo! Kod to: " + kod);
+    } else {
+        alert("Koniec gry! Kod to: " + kod);
+    }
+}
+
+// GRA 3
+else if (wybor == "3") {
+
+    let owoce = ["banan", "mango", "ananas"];
+    let zwierzeta = ["tygrys", "slon", "zyrafa"];
+
+    let kategoria = prompt("Wpisz: owoce lub zwierzeta");
+
+    let haslo;
+
+    if (kategoria == "owoce") {
+        haslo = owoce[Math.floor(Math.random() * owoce.length)];
+        alert("Wskazówka: To owoc");
+    } else {
+        haslo = zwierzeta[Math.floor(Math.random() * zwierzeta.length)];
+        alert("Wskazówka: To zwierzę");
+    }
+
+    let stan = Array(haslo.length).fill("_");
+    let bledy = 0;
+
+    while (stan.includes("_") && bledy < 6) {
+
+        let litera = prompt(
+            "Hasło: " + stan.join(" ") +
+            "\nBłędy: " + bledy + "/6" +
+            "\nPodaj literę:"
+        );
+
+        let trafienie = false;
+
+        for (let i = 0; i < haslo.length; i++) {
+            if (haslo[i] == litera) {
+                stan[i] = litera;
+                trafienie = true;
+            }
+        }
+
+        if (!trafienie) {
+            bledy++;
+        }
+    }
+
+    if (!stan.includes("_")) {
+        alert("Wygrałeś! Hasło: " + haslo);
+    } else {
+        alert("Przegrałeś! Hasło: " + haslo);
+    }
+}
+
+else {
+    alert("Niepoprawny wybór!");
+}
+
+</script>
+
+</body>
+</html>
